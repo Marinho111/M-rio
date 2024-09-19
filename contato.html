@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTATO - Site Mário</title>
+    <link rel="stylesheet" href="contato.css">
+    <!-- <link rel="stylesheet" href="home.css"> -->
+    <!-- <link rel="stylesheet" href="sobre.css"> -->
+    <!-- <link rel="stylesheet" href="home.java"> -->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagens/logo.jpg" alt="Logo Mário Eduardo">
+        </div>
+        <nav>
+
+            <!-- LUGARES PARA CLICAR NO SITE E DIRECIONAR PARA AS OUTRAS PÁGINAS -->
+            <div class="LUGARES _PARA_CLICAR">
+              <nav>
+                  <ul style="display: flex;">
+                      <li><a href="home.html">Home</a></li>
+                      <li><a href="sobre.html">Sobre</a></li>
+                      <li><a href="contato.html" class="active">Contato</a></li>
+                  </ul>
+              </nav>
+            </div>
+
+            <div class="icons">
+                <a href="https://www.instagram.com/"><img src="imagens/ig.png" alt="Instagram"></a>
+                <a href="https://open.spotify.com/playlist/2RSU7sg5QBG0gDJmDXX2oH?si=827eecc239fb4b51"><img src="imagens/spotify.jpg" alt="Share"></a>
+            </div>
+        </nav>        
+    </header>
+
+    <main>
+        <section id="contato">
+            <h1>Contato</h1>
+            <p>Se você tiver alguma dúvida ou quiser conversar sobre carros esportivos, não hesite em entrar em contato conosco.</p>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+            <div class="contato-info">
+                <h2>Informações de Contato</h2>
+                <p>Endereço: Rua Paineira, 1000 - Osvaldo Cruz, SP</p>
+                <p>Telefone: (18) 99659-9539</p>
+                <p>E-mail: (mario.e.silva6@aluno.senai.br)</p>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>&copy; 2024 Site do Mário</p>
+        <p><a href="#">Os direitos estão reservados ao Criador</a> | <a href="#">políticas de privacidade</a></p>
+    </footer>
+</body>
+</html>
